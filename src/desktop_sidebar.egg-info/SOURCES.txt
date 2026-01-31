@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/desktop_sidebar/__init__.py
+src/desktop_sidebar/__main__.py
+src/desktop_sidebar/app.py
+src/desktop_sidebar/config.py
+src/desktop_sidebar/timefmt.py
+src/desktop_sidebar.egg-info/PKG-INFO
+src/desktop_sidebar.egg-info/SOURCES.txt
+src/desktop_sidebar.egg-info/dependency_links.txt
+src/desktop_sidebar.egg-info/requires.txt
+src/desktop_sidebar.egg-info/top_level.txt
+src/desktop_sidebar/widgets/clock_widget.py
+tests/test_clock_widget.py
+tests/test_import.py

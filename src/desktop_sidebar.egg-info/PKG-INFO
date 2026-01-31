@@ -1,3 +1,13 @@
+Metadata-Version: 2.4
+Name: desktop-sidebar
+Version: 0.1.0
+Summary: Minimal desktop sidebar skeleton (PySide6)
+Author: Your Name
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: PySide6>=6.5
+Requires-Dist: python-dotenv
+
 # Desktop-Sidebar
 
 Minimal Python project skeleton for a desktop sidebar using **PySide6**.
@@ -44,18 +54,3 @@ If you want a different GUI toolkit (Tkinter, PyQt, etc.) or CI for builds, tell
 - Add a clock with **Add Clock** and pick a timezone (common ones are in the dropdown; you may type an IANA timezone name).
 - Time format: 12-hour with lowercase `am` / `pm`, e.g. `09:55am`.
 - Date format: `DD/MM/YY`, e.g. `30/12/26`.
-
-- On Windows, the app enables **auto-start** at login automatically (creates a Run entry in the registry).
-- A system tray icon is available with right-click menu:
-  - `Open` — show the sidebar
-  - `Minimise (tray icon)` — hide entirely (so programs can run over it)
-  - `Close` — quit the app
-
-## Continuous Integration (GitHub Actions) ✅
-
-This repository includes a GitHub Actions workflow: `.github/workflows/ci.yml` that:
-
-- Runs the test suite across Linux & Windows and Python 3.10/3.11/3.12.
-- Builds a Windows executable using PyInstaller and uploads it as a workflow artifact (`DesktopSidebar-windows-exe`).
-
-You can inspect the workflow and see build artifacts on each push / pull request.
